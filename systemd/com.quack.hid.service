@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.quack.hid
+Exec=/usr/share/harbour-quack/service/daemon.py
+User=root

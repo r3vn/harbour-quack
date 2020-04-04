@@ -1,0 +1,10 @@
+[Unit]
+Description=Quack HID service  
+
+[Service]
+Type=dbus
+BusName=com.quack.hid
+ExecStart=/usr/share/harbour-quack/service/daemon.py
+
+[Install]
+WantedBy=graphical.target
